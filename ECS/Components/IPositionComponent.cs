@@ -3,9 +3,9 @@ using UnityEngine;
 namespace ECS.Components
 {
     /// <summary>
-    /// This is the target that the camera is looking at.
+    /// The position of an Entity
     /// </summary>
-    public interface ICameraTargetComponent
+    public interface IPositionComponent
     {
         Vector3 position { get; }
     }
